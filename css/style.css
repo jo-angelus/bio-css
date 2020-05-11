@@ -1,0 +1,37 @@
+body {
+  background: #3e4444;
+  font-family: Arial;
+  background-size: auto 100vh;
+  height: 100vh;
+}
+
+.menu{
+  background: #f0f0f0;
+}
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+ /*space-between(Espaço nas do meio/entre)*/;
+}
+
+.menu li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.site-title,
+.site-subtitle{
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.site-subtitle{
+  font-style: italic;
+}
